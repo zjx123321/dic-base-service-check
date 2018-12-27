@@ -1,0 +1,1 @@
+org.springframework.boot.env.PropertySourceLoader=com.jdddata.dic.base.service.check.muti.source.config.MyPropertiesHandler
