@@ -2,12 +2,14 @@ package com.jdddata.dic.base.service.check.muti.source.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by zhengjiexiang on 2018/12/20
  */
 @Configuration
+@RefreshScope
 public class BusinessConfig {
 
     @Value("${business.check.soccer.mutiSource}")

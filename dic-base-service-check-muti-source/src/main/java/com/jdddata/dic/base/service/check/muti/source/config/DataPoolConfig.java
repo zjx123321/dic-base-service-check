@@ -1,12 +1,14 @@
 package com.jdddata.dic.base.service.check.muti.source.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by zhengjiexiang on 2018/12/20
  */
 @Configuration
+@RefreshScope
 @ConfigurationProperties(prefix = "business.datapool")
 public class DataPoolConfig {
 
